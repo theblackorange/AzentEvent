@@ -10,8 +10,8 @@ function Countries({ nation, currentEventsDisplay}) {
     return (
         <span className="countries">
             <ul className="list">
-                {nation.map((eachNation) => (
-                    <li className="listElements"><a href='##' onClick={() => displayEvents(eachNation)}>{eachNation}</a></li>
+                {nation.map((eachNation, index) => (
+                    <li key={index} className="listElements"><a href='##' onClick={() => displayEvents(eachNation)}>{eachNation}</a></li>
                 ))}
             </ul>
         </span>
