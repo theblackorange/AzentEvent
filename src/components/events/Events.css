@@ -1,0 +1,44 @@
+.event {
+    margin-left: 300px;
+    padding: 50px;
+    width: 100%;
+    display: inline;
+}
+
+.card {
+    
+    width: 40%;
+    display: inline-block;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 3);
+    margin: 15px;
+    padding-bottom: 15px;
+}
+
+.align {
+    text-align: center;
+}
+
+.title {
+    font-size: 1.8rem;
+}
+
+.des {
+    font-size: 1.3rem;
+    color: coral;
+}
+
+.time {
+    font-size: 1rem;
+    color: rgb(97, 91, 91);
+}
+
+.button {
+    border: 2px solid rgb(133, 223, 15);
+    border-radius: 10%;
+}
+
+.button-text {
+    text-decoration: none;
+    color: rgb(133, 223, 15);
+    font-size: 1.2rem;
+}
